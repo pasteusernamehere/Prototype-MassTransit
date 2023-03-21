@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype-MassTransit.Api", "src\Prototype-MassTransit.Api\Prototype-MassTransit.Api.csproj", "{CE388F65-54BC-4144-8FCA-D4BD8872B531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype-MassTransit.Components", "src\Prototype-MassTransit.Components\Prototype-MassTransit.Components.csproj", "{600E3E01-5541-4ECA-88FF-50A5E31C3120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype-MassTransit.Contracts", "src\Prototype-MassTransit.Contracts\Prototype-MassTransit.Contracts.csproj", "{E5B00549-D887-4133-9A91-022D75920309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype-MassTransit.Service", "src\Prototype-MassTransit.Service\Prototype-MassTransit.Service.csproj", "{A26AF11E-CB72-4372-BD1B-86AC274DDBF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{FB21FE6A-C582-4DFD-BFB0-60C13DB2BBA7}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE388F65-54BC-4144-8FCA-D4BD8872B531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE388F65-54BC-4144-8FCA-D4BD8872B531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE388F65-54BC-4144-8FCA-D4BD8872B531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE388F65-54BC-4144-8FCA-D4BD8872B531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600E3E01-5541-4ECA-88FF-50A5E31C3120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600E3E01-5541-4ECA-88FF-50A5E31C3120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600E3E01-5541-4ECA-88FF-50A5E31C3120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600E3E01-5541-4ECA-88FF-50A5E31C3120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B00549-D887-4133-9A91-022D75920309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B00549-D887-4133-9A91-022D75920309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B00549-D887-4133-9A91-022D75920309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B00549-D887-4133-9A91-022D75920309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26AF11E-CB72-4372-BD1B-86AC274DDBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26AF11E-CB72-4372-BD1B-86AC274DDBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26AF11E-CB72-4372-BD1B-86AC274DDBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26AF11E-CB72-4372-BD1B-86AC274DDBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
